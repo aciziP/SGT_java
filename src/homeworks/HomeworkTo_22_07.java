@@ -1,3 +1,5 @@
+package homeworks;
+
 import java.util.Scanner;
 
 public class HomeworkTo_22_07 {
@@ -28,6 +30,22 @@ public class HomeworkTo_22_07 {
                 System.out.print(i + " ");
             }
         }
+
+        // Kārlis version
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter number");
+
+        int input = scanner.nextInt();
+
+        if(input >= 0){
+            for (int i = input; i >= 0; i--){
+                System.out.print(i + " ");
+            }
+        }else {
+            for (int i = input; i <= 0; i++){
+                System.out.print(i + " ");
+            }
+        }*/
     }
 
 }
