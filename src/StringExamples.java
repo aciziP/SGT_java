@@ -1,5 +1,5 @@
 import java.util.Locale;
-
+import java.util.Scanner;
 public class StringExamples {
     //03.08.2022
 
@@ -64,6 +64,20 @@ public class StringExamples {
         System.out.println(Double.parseDouble(doubleValue));
         System.out.println(Boolean.parseBoolean(boolValue));
         System.out.println(Long.parseLong(longValue));
+
+        //Trim method
+        System.out.println("      This is test    ".trim());
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter password (qwert*)");
+        String pswd = scanner.nextLine().trim().toLowerCase();
+
+        if (pswd.equals("qwerty")){
+            System.out.println("Password correct");
+        } else {
+            System.out.println("Incorrect password");
+        }
+
 
     }
 }
