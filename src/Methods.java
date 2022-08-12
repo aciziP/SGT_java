@@ -10,12 +10,12 @@ public class Methods {
         personInfo("Usman",35);
         personInfo("Israel",33);
 
-//        int calculation = sum(45,66,12);
-//        if (calculation >= 100){
-//            System.out.println("over 100");
-//        }else{
-//            System.out.println("under 100");
-//        }
+        int calculation = sum(45,66,12);
+        if (calculation >= 100){
+            System.out.println("over 100");
+        }else{
+            System.out.println("under 100");
+        }
     }
 
     public static void printName(String name){
@@ -31,7 +31,8 @@ public class Methods {
         System.out.printf("Your name is %s and you are %d years old\n", name,age);
     }
 
-//    public static int sum(){
-//
-//    }
+    public static int sum (int num1, int num2, int num3){
+        return num1 + num2 + num3;
+    }
+
 }
