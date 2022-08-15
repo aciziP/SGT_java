@@ -1,3 +1,5 @@
+package lecture_29_07_tasks;
+
 public class NumberGrid {
     public static void main(String[] args) {
 
